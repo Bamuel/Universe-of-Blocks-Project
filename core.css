@@ -1,0 +1,42 @@
+.block0{
+	width: 40px;
+	height: 40px;
+	float:	left;
+	background-image: url('no-block.png');
+}
+.block1{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood.png');
+
+}
+.block3{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('grass.png');
+
+}
+.block4{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #848484
+}
+.block5{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #00A500
+}
+.panel{
+	width:1000px;
+	height:520px;
+}
+.block6{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('grass.png');
+}

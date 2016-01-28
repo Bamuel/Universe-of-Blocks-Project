@@ -1,0 +1,92 @@
+.block0{
+	width: 40px;
+	height: 40px;
+	float:	left;
+	background-image: url('no-block.png');
+}
+.block1{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_plank.png');
+
+}
+.block2{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('grass.png');
+
+}
+.block3{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background: #848484
+}
+.block4{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('leaves.png');
+}
+.gamepanel{
+	width:1000px;
+	height:520px;
+}
+.invpanel{
+	width:44px;
+	height:44px;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	position: fixed;
+	margin-left: 20px;
+}
+.block5{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('glass.png');
+}
+.block6{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood.png');
+}
+.block7{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('dirt.png');
+}
+.block8{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('music_box.png');
+	cue:url("music1.mp3");
+}
+.block9{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_slab.png');
+}
+.block10{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('leaves_desert.png');
+}
+.block11{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('sand.png');
+}
+
+
+
+
+

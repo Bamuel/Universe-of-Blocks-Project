@@ -1,0 +1,57 @@
+.panel{
+	background-image: url("img/serverselect/panel.png");
+	height: 530px;
+	width: 943px;
+}
+
+.button{
+	background-image: url("img/serverselect/button.png");
+	height: 131px;
+	width: 904px;
+}
+.button-body{
+	float: left;
+	margin-left: 20px; 
+	margin-top: 45px;
+}
+.serveron{
+	background-image: url("img/serverselect/on.png");
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+}
+.serveroff{
+	background-image: url("img/serverselect/off.png");
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+}
+.serverclosed{
+	background-image: url("img/serverselect/server_closed.png");
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+}
+.servermaintenance{
+	background-image: url("img/serverselect/maintenance.png");
+	height: 40px;
+	width: 40px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 45px;
+}
+@font-face {
+    font-family: "UoBFont";
+    src: url(universeofblocksfont.ttf) format("truetype");
+}
+.nameserver {
+    color: #000;
+    font-family: "UoBFont";
+    font-size:60px;
+}
