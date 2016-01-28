@@ -1,4 +1,4 @@
-# ${1:Universe of Blocks Project}
+#Universe of Blocks Project
 TODO: 
 - Clean up source for easier (alocate folders for css,font,images,old files, etc...)
 - Remove *open new tab
