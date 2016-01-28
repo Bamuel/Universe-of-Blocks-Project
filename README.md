@@ -5,7 +5,8 @@ TODO:
 - Redesign images
 - Add steve and other characters (skins are not nessarry)
 - Make an informational and donation page, better. (eg. Twitter and your website)
-# Credits
+
+#Credits 
 - Edgar
 - AveryDee
 - Bamuel (Samuel)
