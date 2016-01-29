@@ -1,0 +1,25 @@
+body {
+    background-image: url("http://i.imgur.com/F0MWRXC.png?1");
+    background-size: cover;
+}
+div#container {
+    background-color: #f2f4ff;
+    margin: 0 auto;
+    max-width: 832px;
+    text-align:center; /*New*/
+}
+div#team {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+p {
+    color: black;
+    font-size: medium;
+    font-family: "Comic Sans MS";
+}
