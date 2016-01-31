@@ -13,6 +13,7 @@
 - [ ] Add all blocks
 - [ ] Save map by their ip *php
 - [ ] Fix the spaces in creative sections
+- [ ] Implement the secondary panel
 
 ### Credits 
 - Edgar
