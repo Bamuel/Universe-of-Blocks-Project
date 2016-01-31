@@ -251,6 +251,96 @@
 	float: left;
 	background-image: url('snowman_bottom.png');
 }
+.block38{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('bedrock.png');
+}
+.block39{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('brick.png');
+}
+.block40{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('cactus.png');
+}
+.block41{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('cake.png');
+}
+.block42{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('cauldron.png');
+}
+.block43{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('cobblestone.png');
+}
+.block44{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('cobblestone_mossy.png');
+}
+.block45{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('crafting_table.png');
+}
+.block46{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('enchanting_table.png');
+}
+.block47{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('gravel.png');
+}
+.block48{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('hay_block.png');
+}
+.block49{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('ice.png');
+}
+.block50{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('melon.png');
+}
+.block51{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('sandstone_normal.png');
+}
+.block52{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone.png');
+}
 /*Items*/
 .item1{
 	width: 40px;
@@ -258,6 +348,3 @@
 	float: left;
 	background-image: url('seeds.png');
 }
-
-
-
