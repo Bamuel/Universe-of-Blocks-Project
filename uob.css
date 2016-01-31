@@ -35,3 +35,6 @@ div#container {
     background-color: #357F89;
     border-radius: 0px;"
 }
+div#version{
+    float: right;
+}
