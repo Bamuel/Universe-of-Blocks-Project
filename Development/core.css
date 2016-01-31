@@ -1,0 +1,263 @@
+.block0{
+	width: 40px;
+	height: 40px;
+	float:	left;
+	background-image: url('no-block.png');
+}
+.block1{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_plank.png');
+
+}
+.block2{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('grass.png');
+
+}
+.block3{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone.png');
+}
+.block4{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('leaves.png');
+}
+.gamepanel1{
+	width:1000px;
+	height:520px;
+}
+.gamepanel2{
+	width:1000px;
+	height:520px;
+	position: relative;
+}
+.invpanel{
+	width:44px;
+	height:44px;
+	border: 1px solid #000000;
+	border-radius: 0px;
+	position: fixed;
+	margin-left: 20px;
+}
+.block5{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('glass.png');
+}
+.block6{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood.png');
+}
+.block7{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('dirt.png');
+}
+.block8{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('music_box.png');
+	cue:url("music1.mp3");
+}
+.block9{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_slab.png');
+}
+.block10{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('leaves_desert.png');
+}
+.block11{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('sand.png');
+}
+.block12{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('explore_left.png');
+}
+.block13{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('explore_right.png');
+}
+.block14{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_stairs.png');
+}
+.block15{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('wood_stairs2.png');
+}
+.block16{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('fence.png');
+}
+.block17{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('fence2.png');
+}
+.block18{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('fence3.png');
+}
+.block19{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('fence4.png');
+}
+.block20{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('water.gif');
+}
+.block21{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('lava.gif');
+}
+.block22{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('tall_grass.png');
+}
+.block23{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('explore_right_disabled.png');
+}
+.block24{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('explore_left_disabled.png');
+}
+.rain_entity{
+	width: 1007px;
+	height: 505px;
+	background-image: url('rain.gif');
+}
+.block25{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('pumpkin.png');
+}
+.block26{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('halloween_pumpkin.png');
+}
+.block27{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone_brick.png');
+}
+.block28{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone_brick2.png');
+}
+.block29{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone_brick3.png');
+}
+.block30{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone_brick_stairs1.png');
+}
+.block31{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('stone_brick_stairs2.png');
+}
+.block32{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('dirt_farm.png');
+}
+.block33{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('farm.png');
+}
+.block34{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('snowy_grass.png');
+}
+.block35{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('snow_block.png');
+}
+.block36{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('snowman_hat.png');
+}
+.block37{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('snowman_bottom.png');
+}
+/*Items*/
+.item1{
+	width: 40px;
+	height: 40px;
+	float: left;
+	background-image: url('seeds.png');
+}
+
+
+
