@@ -1,9 +1,3 @@
-.line{
-	background-color: #69CEDB;
-	height: 5px;
-	width: 1000px;
-	border-radius: 5px;
-}
 .fondoweb{
 	background: url(background.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -17,4 +11,27 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+div#page{
+    margin: 0 auto;
+    max-width: 800px;
+    text-align:center;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3.5px solid #77ccbf;
+    margin: 1em 0;
+    padding: 0;
+}
+h1, h3 {
+    color: black;
+}
+div#container {
+    margin-top: 50px;
+    height: 400px;
+    width: 800px;
+    background-color: #357F89;
+    border-radius: 0px;"
 }
