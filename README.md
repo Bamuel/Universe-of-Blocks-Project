@@ -12,6 +12,7 @@
 - [ ] Add more maps
 - [ ] Add all blocks
 - [ ] Save map by their ip *php
+- [ ] Fix the spaces in creative sections
 
 ### Credits 
 - Edgar
