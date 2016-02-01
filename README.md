@@ -14,6 +14,7 @@
 - [ ] Save map by their ip *php
 - [x] Fix the spaces in creative sections
 - [ ] Implement the secondary panel
+- [x] New design for modals menu [Bootstrap]
 
 ### Credits 
 - Edgar
