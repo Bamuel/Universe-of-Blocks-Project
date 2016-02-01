@@ -40,7 +40,7 @@ body {
 }
 
 .page {
-    background: url(img/clouds.png) repeat-x;
+    background: url(clouds.png) repeat-x;
     font-family: minecraftia;
     position: relative;
     -webkit-animation: slide 200s linear infinite;
