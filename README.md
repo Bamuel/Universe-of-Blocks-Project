@@ -15,6 +15,7 @@
 - [x] Fix the spaces in creative sections
 - [ ] Implement the secondary panel
 - [x] New design for modals menu [Bootstrap]
+- [ ] Add survival mode
 
 ### Credits 
 - Edgar
