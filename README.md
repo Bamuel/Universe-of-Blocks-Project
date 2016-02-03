@@ -16,6 +16,7 @@
 - [ ] Implement the secondary panel
 - [x] New design for modals menu [Bootstrap]
 - [ ] Add survival mode
+- [ ] Fix rain
 
 ### Credits 
 - Edgar
