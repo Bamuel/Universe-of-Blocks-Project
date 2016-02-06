@@ -2,6 +2,7 @@
   The game can be played on
   - [uob.bamuel.com](http://uob.bamuel.com/index.html)
   - [universeofblocksbeta.16mb.com](http://universeofblocksbeta.16mb.com/)
+
 ## Todo
 - [x] Clean up source for easier (allocate folders for css,font,images,old files, etc...)
 - [ ] Remove *open new tab 
