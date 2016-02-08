@@ -1,3 +1,11 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Bamuel
+ * Date: 8/02/2016
+ */
+include('version.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,10 +34,10 @@
         <h3>This project is a recreation of a 2D minecraft perception, it is made with HTML, CSS, JS. This game is at it's early stages meaning that there are still many features to add!</h3>
         <br>
         <br>
-        <a class="btn btn-success" href="level/1_beta/chunks/index.html" role="button">Play Game!</a>
+        <a class="btn btn-success" href="level/1_beta/chunks/1.php" role="button">Play Game!</a>
         <br>
         <br>
-        <a class="btn btn-warning" href="team.html" role="button">Our Team</a><br>
+        <a class="btn btn-warning" href="team.php" role="button">Our Team</a><br>
         <br>
         <br>
         <br>
@@ -38,7 +46,7 @@
         <br>
         <div id="version">
             <h4>
-                <span class="label label-danger">Version 0.5.2 Alpha</span>
+                <span class="label label-danger">Version <?php echo $version; ?></span>
             </h4>
         </div>
     </div>

@@ -1,3 +1,6 @@
+<?php
+include('version.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +42,12 @@
     <br>
     <br>
     <br>
-    <a role="button" class="btn btn-success" href="index.html">Return</a>
+    <a role="button" class="btn btn-success" href="index.php">Return</a>
+    <div id="version">
+        <h4>
+            <span class="label label-danger">Version <?php echo $version; ?></span>
+        </h4>
+    </div>
     <br>
     <br>
 </div>
