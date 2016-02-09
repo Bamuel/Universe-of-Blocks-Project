@@ -1,5 +1,6 @@
 <?php
     include('../../../version.php');
+    include('inv.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -574,102 +575,7 @@
                 </button>
             </div>
             <!-- Inventory -->
-            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Creative Inventory</h4>
-                        </div>
-                        <div class="modal-body" style="height:500px;">
-                            <div class="modal-header">
-
-                            </div>
-
-
-                            <ul class="nav nav-tabs" id="tabContent">
-                                <li class="active"><a href="#details" data-toggle="tab">Blocks</a></li>
-                                <li><a href="#access-security" data-toggle="tab">Blocks</a></li>
-                                <li><a href="#networking" data-toggle="tab">Special</a></li>
-                            </ul>
-
-                            <div class="tab-content">
-                                <div class="tab-pane active" id="details">
-
-                                    <a id="invslot1" class="block1" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 1;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Wood Planks</p></a>
-                                    <a id="invslot2" class="block2" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 2;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Grass</p></a>
-                                    <a id="invslot3" class="block34" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 34;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Snowy Grass</p></a>
-                                    <a id="invslot4" class="block3" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 3;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone</p></a>
-                                    <a id="invslot5" class="block4" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 4;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Leaves</p></a>
-                                    <a id="invslot6" class="block5" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 5;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Glass</p></a>
-                                    <a id="invslot7" class="block6" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 6;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Wood</p></a>
-                                    <a id="invslot8" class="block7" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 7;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Dirt</p></a>
-                                    <a id="invslot9" class="block9" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 9;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Wood Slab</p></a>
-                                    <a id="invslot10" class="block10" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 10;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Desert Leaves</p></a>
-                                    <a id="invslot11" class="block11" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 11;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Sand</p></a>
-                                    <a id="invslot12" class="block14" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 14;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Wood Stairs</p></a>
-                                    <a id="invslot13" class="block15" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 15;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Wood Stairs</p></a>
-                                    <a id="invslot14" class="block22" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 22;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Tall Grass</p></a>
-                                    <a id="invslot15" class="block25" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 25;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Pumpkin</p></a>
-                                    <a id="invslot16" class="block32" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 32;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Dirt Farm</p></a>
-                                    <a id="invslot17" class="block35" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 35;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Snow Block</p></a>
-                                    <a id="invslot18" class="block38" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 38;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Bedrock</p></a>
-                                    <a id="invslot19" class="block39" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 39;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Brick</p></a>
-                                    <a id="invslot20" class="block43" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 43;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Cobble</p></a>
-                                    <a id="invslot21" class="block44" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 44;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Mossy Cobble</p></a>
-                                    <a id="invslot22" class="block47" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 47;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Gravel</p></a>
-                                    <a id="invslot23" class="block48" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 48;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Hay Block</p></a>
-                                    <a id="invslot24" class="block49" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 49;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Ice</p></a>
-                                    <a id="invslot25" class="block50" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 50;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Melon</p></a>
-                                    <a id="invslot26" class="block51" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 51;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Sandstone</p></a>
-                                    <a id="invslot27" class="block52" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 52;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone</p></a>
-                                    <a id="invslot28" class="block53" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 53;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Obsidian</p></a>
-                                    <a id="invslot29" class="block54" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 54;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Quartz</p></a>
-                                    <a id="invslot30" class="block55" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 55;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Quartz</p></a>
-                                    <a id="invslot31" class="block56" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 56;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Quartz</p></a>
-                                    <a id="invslot32" class="block8" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 8;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Music Box</p></a>
-
-                                    <div class="control-group">
-
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane" id="access-security">
-                                    <a id="invslot33" class="block16" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 16;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Fence</p></a>
-                                    <a id="invslot34" class="block17" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 17;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Fence</p></a>
-                                    <a id="invslot35" class="block18" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 18;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Fence</p></a>
-                                    <a id="invslot36" class="block19" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 19;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Fence</p></a>
-                                    <a id="invslot37" class="block27" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 27;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone Bricks</p></a>
-                                    <a id="invslot38" class="block28" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 28;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone Bricks</p></a>
-                                    <a id="invslot39" class="block29" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 29;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone Bricks</p></a>
-                                    <a id="invslot40" class="block30" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 30;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone Brick Stairs</p></a>
-                                    <a id="invslot41" class="block31" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 31;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Stone Brick Stairs</p></a>
-                                </div>
-                                <div class="tab-pane" id="networking">
-                                    <a id="invslot42" class="block20" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 20;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Water</p></a>
-                                    <a id="invslot43" class="block21" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 21;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Lava</p></a>
-                                    <a id="invslot44" class="block26" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 26;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Halloween pumpkin</p></a>
-                                    <a id="invslot45" class="item1" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 33;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Seeds</p></a>
-                                    <a id="invslot46" class="block36" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 36;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Snowman Hat</p></a>
-                                    <a id="invslot47" class="block37" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 37;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Snowman Bottom</p></a>
-                                    <a id="invslot48" class="block40" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 40;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Cactus</p></a>
-                                    <a id="invslot49" class="block41" style="margin-left: 30px; margin-top: 2px;" blockid="" onclick="blockid = 41;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Cake</p></a>
-                                    <a id="invslot50" class="block42" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 42;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Cauldron</p></a>
-                                    <a id="invslot51" class="block45" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 45;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Crafting Table</p></a>
-                                    <a id="invslot52" class="block46" style="margin-left: 30px; margin-top: 60px;" blockid="" onclick="blockid = 46;return false" data-dismiss="modal"><p style="margin-top: 48px;" data-dismiss="modal">Enchanting Table</p></a>
-                                </div>
-                            </div>
-
-
-                            <!--Implement Stone pilars!!!-->
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            <?php echo $inv; ?>
             <!--Menu modal-->
 
 
