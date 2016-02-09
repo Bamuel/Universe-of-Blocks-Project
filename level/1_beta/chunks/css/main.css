@@ -1,7 +1,7 @@
 @font-face {
     font-family: minecraftia;
     src: url(fonts/minecraftia.eot);
-    src: url(fonts/minecraftia.eot?#iefix) format("embedded-opentype"),url(fonts/minecraftia.woff2) format("woff2"),url(fonts/minecraftia.woff) format("woff"),url(fonts/minecraftia.ttf) format("truetype"),url(fonts/minecraftia.svg#minecraftiaregular) format("svg");
+    src: url(fonts/minecraftia.eot?#iefix) format("embedded-opentype"),url(fonts/minecraftia.woff2) format("woff2"),url(fonts/minecraftia.woff) format("woff"),url(../fonts/minecraftia.ttf) format("truetype"),url(fonts/minecraftia.svg#minecraftiaregular) format("svg");
     font-weight: 400;
     font-style: normal;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .page {
-    background: url(clouds.png) repeat-x;
+    background: url(../img/clouds.png) repeat-x;
     font-family: minecraftia;
     position: relative;
     -webkit-animation: slide 200s linear infinite;
