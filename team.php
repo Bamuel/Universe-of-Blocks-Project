@@ -26,13 +26,16 @@ include('version.php');
     <div id="team">
         <ul>
             <a href="https://twitter.com/Bamuel_" target="_blank">
-                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/693641590183596035/_qfbT5oH.jpg" width="200px">
+                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/696988316508401664/HAQfWGK6.jpg" width="200px">
                 <p>@Bamuel_</p>
             </a>
+            <!--No contributes yet -->
+            <!--
             <a href="https://twitter.com/Coolkid1o8_" target="_blank">
                 <img about="Coolkid1o8" src="https://pbs.twimg.com/profile_images/669330345708384257/mnCvXm4N.jpg" width="200px">
                 <p>@Coolkid1o8_</p>
             </a>
+            -->
             <a href="https://twitter.com/edgar_sanou" target="_blank">
                 <img about="Edgar_sanou" src="https://pbs.twimg.com/profile_images/514060360500797440/w9gSRXQM.png" width="200px">
                 <p>@Edgar_sanou</p>
