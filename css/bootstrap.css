@@ -214,7 +214,7 @@ th {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    
 
     page-break-inside: avoid;
   }
@@ -1278,10 +1278,16 @@ h3,
 h4,
 .h4 {
   font-size: 18px;
+  color: #373C41;
+}
+.hh4 {
+  font-size: 18px;
+  color: #FFFFFF;
 }
 h5,
 .h5 {
   font-size: 14px;
+  color: #FFFFFF;
 }
 h6,
 .h6 {
@@ -3189,25 +3195,27 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #FFC814;
+  border-color: #000000;
+  border-radius: 0px;
+  border: 1px solid #000000;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #449d44;
-  border-color: #255625;
+  background-color: #DCAD12;
+  border-color: #000000;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #DCAD12;
+  border-color: #000000;;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #449d44;
+  background-color: #AF8A10;
   border-color: #398439;
 }
 .btn-success:active:hover,
@@ -3220,8 +3228,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #fff;
-  background-color: #398439;
-  border-color: #255625;
+  background-color: #AF8A10;
+  border-color: #96760D;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3320,9 +3328,10 @@ fieldset[disabled] .btn-info.active {
   background-color: #fff;
 }
 .btn-warning {
-  color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  color: #FFFFFF;
+  background-color: #26282B;
+  border-color: #FFFFFF;
+  border-radius: 0px;
 }
 .btn-warning:focus,
 .btn-warning.focus {
@@ -3332,15 +3341,15 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning:hover {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #101112;
+  border-color: #101112;
 }
 .btn-warning:active,
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #101112;
+  border-color: #101112;
 }
 .btn-warning:active:hover,
 .btn-warning.active:hover,
@@ -3352,8 +3361,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active.focus,
 .open > .dropdown-toggle.btn-warning.focus {
   color: #fff;
-  background-color: #d58512;
-  border-color: #985f0d;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-warning:active,
 .btn-warning.active,

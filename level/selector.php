@@ -18,7 +18,7 @@ include('../version.php');
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
     </script>
-    <script src="js/bootstrap.min.js">
+    <script src="../js/bootstrap.min.js">
     </script>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -30,7 +30,7 @@ include('../version.php');
     <img src="../img/grass.png">
     <h1>Universe of Blocks Project</h1>
     <hr>
-    <div class="panel" id="container">
+    <div class="containers">
         <h3>Select Map</h3>
         <br>
         <br>
