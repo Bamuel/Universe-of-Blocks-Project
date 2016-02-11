@@ -24,6 +24,8 @@
 - [ ] Auto Generating Map
 - [ ] Bamuel's Adv Map
 - [ ] More pages needs to be added at default map
+- [ ] When it rains make the clouds darker.
+- [ ] Remove Yellow/orange sunrise and unset and do DARKER SHADE of BLUE.
 
 ### Credits 
 - Edgar

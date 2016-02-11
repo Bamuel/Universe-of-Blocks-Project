@@ -42,7 +42,7 @@ include('version.php');
     <img src="img/grass.png"><h1>Welcome to Universe of Blocks Project</h1>
     </div>
     <div class="panel" id="container2">
-    <div style="color: #FFFFFF; font-size:35px; font-weight: bold;">Version 0.5.7 Alpha</div>
+    <div style="color: #FFFFFF; font-size:35px; font-weight: bold;">Version <?php echo $version; ?></div>
     <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- New index page! </div>
     <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Updated version number </div>
     <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Redesigned level selection </div>

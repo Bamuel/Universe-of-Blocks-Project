@@ -1,8 +1,8 @@
 <?php
 include('../../../version.php');
-include('inv.php');
-include('menu.php');
-include('pickaxe.php');
+include('../../inv.php');
+include('../../menu.php');
+include('../../pickaxe.php');
 ?>
 <!DOCTYPE html>
 <html>
