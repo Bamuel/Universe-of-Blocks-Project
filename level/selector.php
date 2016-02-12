@@ -13,7 +13,7 @@ include('../version.php');
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>Universe of Blocks</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/uob.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
@@ -36,14 +36,15 @@ include('../version.php');
         <br>
         <div id="select">
             <a class="btn btn-success" href="default/chunks/1.php" role="button">Default Map</a>
-            <a class="btn btn-warning" href="" role="button" onclick="alert('Coming Soon')">Auto Generate</a>
+            <a class="btn btn-primary" href="" role="button" onclick="alert('Coming Soon')">Auto Generate</a>
+            <a class="btn btn-danger" href="random/main.php" role="button">Random (CANCER)</a>
             <a class="btn btn-info" href="" role="button" onclick="alert('Coming Soon')">Bamuel's Adventure</a>
         </div>
         <br>
         <br>
         <br>
         <div id="select">
-            <a role="button" class="btn btn-danger" href="../index.php">Return</a>
+            <a role="button" class="btn btn-primary" href="../index.php">Return</a>
         </div>
         <br>
         <br>

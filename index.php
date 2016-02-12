@@ -42,19 +42,17 @@ include('version.php');
     <img src="img/grass.png"><h1>Welcome to Universe of Blocks Project</h1>
     </div>
     <div class="panel" id="container2">
-    <div style="color: #FFFFFF; font-size:35px; font-weight: bold;">Version <?php echo $version; ?></div>
-    <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- New index page! </div>
-    <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Updated version number </div>
-    <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Redesigned level selection </div>
-    <br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- New background </div>
-    <br><br><div style="color: #B5B5B4; font-size:20px; font-weight: bold;">This project is a recreation of a 2D minecraft perception, it is made with HTML, CSS, JS. This game is at it's early stages meaning that there are still many features to add! </div>
-    <center><br><a class="btn btn-warning" href="team.php" role="button"><h5>Our Team</h5></a><br></center>
-        
-
-        
-
-
-        </div>
+        <div style="color: #FFFFFF; font-size:35px; font-weight: bold;">Version <?php echo $version; ?></div>
+        <br>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- More Maps </div>
+        <br>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Updated version number </div>
+        <br>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- New Random Map working. </div>
+        <br>
+        <br>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">This project is a recreation of a 2D minecraft perception, it is made with HTML, CSS, JS. This game is at it's early stages meaning that there are still many features to add! </div>
+        <br><a class="btn btn-warning" href="team.php" role="button"><h5>Our Team</h5></a><br>
     </div>
 </div>
 <!--<h3>This project is a recreation of a 2D minecraft perception, it is made with HTML, CSS, JS. This game is at it's early stages meaning that there are still many features to add!</h3>
