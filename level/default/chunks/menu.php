@@ -22,8 +22,8 @@ $menu = '
                 <br>
                 <br>
                 <h2>Weather</h2>
-                <button id="rain_hidden" type="button" class="btn btn-success" onclick="void(document.getElementById(\'rain_panel\').style.visibility=\'hidden\'); changeclouds1(\'normalcloud\');">Sun</button>
-                <button id="rain_visible" type="button" class="btn btn-danger" onclick="void(document.getElementById(\'rain_panel\').style.visibility=\'visible\') ; changeclouds2(\'blackcloud\');">Rain</button>
+                <button id="rain_hidden" type="button" class="btn btn-success" onclick="void(document.getElementById(\'rain_panel\').style.visibility=\'hidden\')">Sun</button>
+                <button id="rain_visible" type="button" class="btn btn-danger" onclick="void(document.getElementById(\'rain_panel\').style.visibility=\'visible\')">Rain</button>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
