@@ -26,7 +26,7 @@ include('version.php');
     <div id="team">
         <ul>
             <a href="https://twitter.com/Bamuel_" target="_blank">
-                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/696988316508401664/HAQfWGK6.jpg" width="200px">
+                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/756689406514368512/z3bKVKA4_400x400.jpg" width="200px">
                 <p>@Bamuel_</p>
             </a>
             <!--No contributes yet -->
@@ -37,7 +37,7 @@ include('version.php');
             </a>
             -->
             <a href="https://twitter.com/edgar_sanou" target="_blank">
-                <img about="Edgar_sanou" src="https://pbs.twimg.com/profile_images/514060360500797440/w9gSRXQM.png" width="200px">
+                <img about="Edgar_sanou" src="https://pbs.twimg.com/profile_images/746832683213426689/-0ID85FN_400x400.jpg" width="200px">
                 <p>@Edgar_sanou</p>
             </a>
         </ul>
