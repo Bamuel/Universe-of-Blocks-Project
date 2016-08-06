@@ -1,7 +1,7 @@
 #  **Universe of Blocks**
   The game can be played on
   
-  - [uob.bamuel.com](http://uob.bamuel.com/index.html)
+  - [uob.bamuel.com](http://uob.bamuel.com/index.php)
   - [universeofblocksbeta.16mb.com](http://universeofblocksbeta.16mb.com/)
 
 ## Todo
