@@ -44,11 +44,11 @@ include('version.php');
     <div class="panel" id="container2">
         <div style="color: #FFFFFF; font-size:35px; font-weight: bold;">Version <?php echo $version; ?></div>
         <br>
-        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- More Maps </div>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Version 1 of the Autogeneration </div>
         <br>
         <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Updated version number </div>
         <br>
-        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- New Random Map working. </div>
+        <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">- Fixed the sun and moon </div>
         <br>
         <br>
         <div style="color: #B5B5B4; font-size:20px; font-weight: bold;">This project is a recreation of a 2D minecraft perception, it is made with HTML, CSS, JS. This game is at it's early stages meaning that there are still many features to add! </div>

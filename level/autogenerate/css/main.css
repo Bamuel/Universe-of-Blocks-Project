@@ -1,0 +1,146 @@
+@font-face {
+    font-family: minecraftia;
+    src: url(fonts/minecraftia.eot);
+    src: url(fonts/minecraftia.eot?#iefix) format("embedded-opentype"),url(fonts/minecraftia.woff2) format("woff2"),url(fonts/minecraftia.woff) format("woff"),url(../fonts/minecraftia.ttf) format("truetype"),url(fonts/minecraftia.svg#minecraftiaregular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+body {
+}
+
+.page {
+    background: url(../img/clouds.png) repeat-x;
+    font-family: minecraftia;
+    position: relative;
+    -webkit-animation: slide 200s linear infinite;
+    -moz-animation: slide 200s linear infinite;
+    animation: slide 200s linear infinite;
+}
+
+.minecraft {
+    width: 890px;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mc-nav {
+    margin: 40px 0;
+}
+
+.mc-nav .link-head {
+    display: block;
+    padding: 6px 13px;
+}
+
+.mc-nav .nav-item {
+    margin: 20px auto;
+    display: block;
+    overflow: hidden;
+    width: 350px;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0 -.5px 0 1px rgba(162,162,162,.6);
+    -moz-box-shadow: inset 0 -.5px 0 1px rgba(162,162,162,.6);
+    box-shadow: inset 0 -.5px 0 1px rgba(162,162,162,.6);
+}
+
+.mc-nav .inner {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+    padding: 6px 13px;
+}
+
+.mc-nav input,.mc-nav .submit {
+    padding: 6px 13px;
+    font-family: minecraftia;
+}
+
+.mc-nav input[type=email],.mc-nav input[type=text] {
+    width: 300px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.mc-nav .submit {
+    margin-top: 15px;
+}
+
+.mc-nav a {
+}
+
+.mc-nav p {
+    text-align: left;
+    font-family: minecraftia;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.mc-nav iframe {
+    width: 100%;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+.mc-nav dl {
+    text-align: left;
+}
+
+.mc-nav dt {
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: relative;
+    text-align: left;
+    margin-top: 200px;
+    min-height: 98px;
+}
+
+.footer .esrb {
+    margin-left: 15px;
+    float: right;
+}
+
+.footer p {
+    font-family: minecraftia;
+    padding-top: 35px;
+    padding-left: 20px;
+    font-size: 10px;
+}

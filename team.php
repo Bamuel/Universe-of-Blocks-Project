@@ -26,7 +26,7 @@ include('version.php');
     <div id="team">
         <ul>
             <a href="https://twitter.com/Bamuel_" target="_blank">
-                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/756689406514368512/z3bKVKA4_400x400.jpg" width="200px">
+                <img about="Bamuel" src="https://pbs.twimg.com/profile_images/765668746761347072/Z23tGn6O_400x400.jpg" width="200px">
                 <p>@Bamuel_</p>
             </a>
             <!--No contributes yet -->

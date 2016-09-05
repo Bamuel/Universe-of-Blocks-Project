@@ -36,7 +36,7 @@ include('../version.php');
         <br>
         <div id="select">
             <a class="btn btn-success" href="default/chunks/1.php" role="button">Default Map</a>
-            <a class="btn btn-primary" href="" role="button" onclick="alert('Coming Soon')">Auto Generate</a>
+            <a class="btn btn-primary" href="autogenerate/main.php" role="button">Auto Generate (Beta)</a>
             <a class="btn btn-danger" href="random/main.php" role="button">Random (CANCER)</a>
             <a class="btn btn-info" href="" role="button" onclick="alert('Coming Soon')">Bamuel's Adventure</a>
         </div>
